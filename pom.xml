@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>se.helgestenstrom</groupId>
+    <artifactId>AuctionSniper</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <junit.version>5.5.1</junit.version>
+    </properties>
+
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/com.googlecode.windowlicker/windowlicker-swing -->
+        <dependency>
+            <groupId>com.googlecode.windowlicker</groupId>
+            <artifactId>windowlicker-swing</artifactId>
+            <version>r268</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.igniterealtime.smack/smack -->
+        <dependency>
+            <groupId>org.igniterealtime.smack</groupId>
+            <artifactId>smack</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.jmock/jmock-junit5 -->
+        <dependency>
+            <groupId>org.jmock</groupId>
+            <artifactId>jmock-junit5</artifactId>
+            <version>2.12.0</version>
+        </dependency>
+
+
+    </dependencies>
+
+
+</project>
