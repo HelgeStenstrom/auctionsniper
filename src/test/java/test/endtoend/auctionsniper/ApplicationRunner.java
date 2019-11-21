@@ -1,8 +1,6 @@
 package test.endtoend.auctionsniper;
 
 import auctionsniper.Main;
-import test.endtoend.auctionsniper.AuctionSniperDriver;
-import test.endtoend.auctionsniper.FakeAuctionServer;
 
 /**
  * @author Helge Stenström on 2018-03-22.
